@@ -1,0 +1,154 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root{
+	--color-general:#707070;
+	--color-primario: #00438b;
+	--color-titulos: #000;
+	--color naranja: #ff7700;
+	--fondo gris: #f5f5f5;
+	--fondo morado: #efdff7;
+	--color morado: #b17cc6;
+	--color fondo aqua: #c6e6fd;
+	--color aqua: #63b0e3;
+	--color fondo footer: #fff;
+}
+body{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	color: var(--color-general);
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+.titulo{
+	color:#fff;
+	font-family:  'Comfortaa', sans-serif;
+	font-size:40px;
+}
+.subtitulo{
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.titulonegro{
+	color:#000;
+	font-family:  'Comfortaa', sans-serif;
+	font-size:40px;
+	text-align: center;
+}
+.subtitulonegro{
+	color:#929292;
+	font-family: 'Open Sans', sans-serif;
+text-align: center;
+	font-size:15px;
+}
+.btn-decorum{
+	background-color:#ff7700;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.btn-decorumazul{
+	background-color:#00438b;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	background-color: var(--color-primario);
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+#hero{
+	background-image: url("../img/hero-bg-4.jpg");
+	background-size: cover;
+	background-position: center;	
+	
+}
+.overlay{
+	background-color: rgba(0,67,139,0.70);
+	background-size: cover;
+	background-position: center;
+	 overflow: hidden;
+ height: 100%;
+	padding-top:70px; 
+}
+#hero .row{
+	margin-left: 40px;
+	
+}
+#hero .content{
+	margin-top: 40px;
+}
+#hero img{
+	text-align: center;
+	margin-bottom: 40px;
+	margin-left: 90px;
+}
+#features{
+	padding-top: 40px;
+}
+#features .row{
+	padding-top: 10px;
+	margin-left: 30px;
+	
+}
+#features h6{
+	font-family: 'Comfortaa', sans-serif;
+	font-weight:bold;
+}
+ p{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+#features .las{
+	text-align: center;
+	font-size:50px;
+	color:#00438b;
+	
+}
+#agency{
+	padding-top:40px;
+	background-color:#f5f5f5;
+	
+}
+#agency .card{
+	padding-top:40px;
+	text-align: center;
+	height: auto;
+	background-color: 
+	
+	
+}
+footer{
+	background-color: #fff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
